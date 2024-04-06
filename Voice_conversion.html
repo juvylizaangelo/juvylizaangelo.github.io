@@ -1,0 +1,404 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-138229553-7"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'UA-138229553-7');
+    </script>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Voice Conversion</title>
+    <link href="../../css/bootstrap.min.css" rel="stylesheet">
+  </head>
+
+  <style type="text/css">
+    main {
+    padding-bottom: 50px;
+    }
+    header a:link {
+    color: #BBBBBB;    
+    }
+    header a:hover {
+    color: #BBBBBB;
+    }
+    header a:visited {
+    color: #BBBBBB;
+    }
+    header a:active {
+    color: #BBBBBB;
+    }
+    header  {
+    background-color: #478559;
+    justify-content: center;
+    }
+    footer {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: #478559;
+    color: #BBBBBB;
+    }
+    table {
+    width: 100%;
+    table-layout: fixed;
+    }
+    audio {
+    width: 100%;
+    }
+    .jumbotroncolor {
+    background-color: #333333;
+    color: #EEEEEE;
+    }
+    .thumbnailsize {
+    width: 200px;
+    }
+    .thumbnailshadow {
+    filter: drop-shadow(5px 5px 5px #aaa);
+    }
+    @media screen and (max-width:767px) {
+    h1 { font-size:20pt;}
+    }
+    @media screen and (min-width:768px){
+    h1 { font-size:30pt;}
+    }
+  </style>
+
+  <body>
+
+     <header class="header" id="top">
+      <div class="jumbotron jumbotroncolor text-center">
+	<div class="container">
+	  <h1>Voice Conversion</h1>
+	  <h2>Final Year Project - G31<br></h2>
+		
+	  <p class="lead">
+	    Team:
+	    <a href="mailto:Sagarhparmar12345@gmail.com">Sagar Parmar</a>,&ensp;
+            <a href="mailto:nikunj101skl@gmail.com">Nikunj</a>,&ensp;
+            <a href="mailto:khalnayakvineet@gmail.com">Vinit Bhat</a>,&ensp;
+	    <a href="/../index.html">Aman Gondaliya</a><br>
+	    
+	    Project Guide: <a href="https://sites.google.com/view/sumandeb/home">Dr.Suman Deb</a><br>
+	  </p>
+	  <p class="lead">
+	    <a href="https://www.svnit.ac.in/">NIT Surat, India</a><br>
+	    May 2021<br>		  
+	  </p>
+	</div>
+      </div>
+    </header>
+
+    <main>            
+	
+	
+
+	
+	
+
+	<div class="row" id="results">
+	  <div class="col-md-12">
+	    <h2>cycleGAN</h2>
+	    <p>
+	      It was evaluated using the Voice Conversion Challenge 2016 (VCC 2016)<a href="http://dx.doi.org/10.7488/ds/1575"> dataset</a>.<br>
+	    </p>	    
+	   
+	    <p>
+	      <strong>NOTE:</strong> Recommended browsers are Apple Safari, Google Chrome, or Mozilla Firefox.
+	    </p>
+	    
+	    <h3><small>Male (SM1) &rarr; Male (TM3)</small></h3>
+	    <div>
+	      <table class="table">
+		<thead>
+		  <tr>
+		    <th></th>
+		    <th>Source</th>
+		    <th>Target</th>
+		    <th>CycleGAN-VC</th>
+
+		  </tr>
+		</thead>
+		<tbody>
+		  <tr>
+		    <th scope="row">Sample 1</th>
+		    <td>
+		      <audio controls>
+			<source src="Voice_Conversion/results/CycleGAN/SM1_200001.wav" type="audio/wav" />
+			Your browser does not support the audio element.
+		      </audio>
+		    </td>
+		    <td>
+		      <audio controls>
+			<source src="Voice_Conversion/results/CycleGAN/TM3_200001.wav" type="audio/wav" />
+			Your browser does not support the audio element.
+		      </audio>
+		    </td>
+		    <td>
+		      <audio controls>
+			<source src="Voice_Conversion/results/CycleGAN/SM1_TM3_200001.mp3" type="audio/wav" />
+			Your browser does not support the audio element.
+		      </audio>
+		    </td>
+		  
+		  </tr>
+
+		
+
+		</tbody>
+	      </table>
+	    </div>
+
+	    <h3><small>Male (SM1) &rarr; Female (TF2)</small></h3>
+	    <div>
+	      <table class="table">
+		<thead>
+		  <tr>
+		    <th></th>
+		    <th>Source</th>
+		    <th>Target</th>
+		    <th>CycleGAN-VC</th>
+			  
+		  </tr>
+		</thead>
+		<tbody>
+		  <tr>
+		    <th scope="row">Sample 1</th>
+		    <td>
+		      <audio controls>
+			<source src="Voice_Conversion/results/CycleGAN/SM1_200002.wav" type="audio/wav" />
+			Your browser does not support the audio element.
+		      </audio>
+		    </td>
+		    <td>
+		      <audio controls>
+			<source src="Voice_Conversion/results/CycleGAN/TF2_200002.wav" type="audio/wav" />
+			Your browser does not support the audio element.
+		      </audio>
+		    </td>
+		    <td>
+		      <audio controls>
+			<source src="Voice_Conversion/results/CycleGAN/SM1_TF2_200002.mp3" type="audio/wav" />
+			Your browser does not support the audio element.
+		      </audio>
+		    </td>
+		  
+		  </tr>
+
+		 
+		  
+		</tbody>
+	      </table>
+	    </div>
+
+	    
+	  </div>
+	</div>
+
+	<hr>
+	
+	<h2>starGAN</h2>
+	    <p>
+	      It was evaluated using the Voice Conversion Challenge 2016 (VCC 2016)<a href="http://dx.doi.org/10.7488/ds/1575"> dataset</a>.<br>
+	    </p>	    
+	   
+	    
+	    <h3><small>Female (SF1) &rarr; Male (TM1)</small></h3>
+	    <div>
+	      <table class="table">
+		<thead>
+		  <tr>
+		    <th></th>
+		    <th>Source</th>
+		    <th>Target</th>
+		    <th>StarGAN-VC</th>
+
+		  </tr>
+		</thead>
+		<tbody>
+		  <tr>
+		    <th scope="row">Sample 1</th>
+		    <td>
+		      <audio controls>
+			<source src="Voice_Conversion/results/StarGAN/SF1_200028.wav" type="audio/wav" />
+			Your browser does not support the audio element.
+		      </audio>
+		    </td>
+		    <td>
+		      <audio controls>
+			<source src="Voice_Conversion/results/StarGAN/TM1_200028.wav" type="audio/wav" />
+			Your browser does not support the audio element.
+		      </audio>
+		    </td>
+		    <td>
+		      <audio controls>
+			<source src="Voice_Conversion/results/StarGAN/SF1_TM1_200028.mp3" type="audio/wav" />
+			Your browser does not support the audio element.
+		      </audio>
+		    </td>
+		  
+		  </tr>
+
+		
+
+		</tbody>
+	      </table>
+	    </div>
+
+	    <h3><small>Male (TM1) &rarr; Female (SF1)</small></h3>
+	    <div>
+	      <table class="table">
+		<thead>
+		  <tr>
+		    <th></th>
+		    <th>Source</th>
+		    <th>Target</th>
+		    <th>StarGAN-VC</th>
+			  
+		  </tr>
+		</thead>
+		<tbody>
+		  <tr>
+		    <th scope="row">Sample 1</th>
+		    <td>
+		      <audio controls>
+			<source src="Voice_Conversion/results/StarGAN/TM1_200050.wav" type="audio/wav" />
+			Your browser does not support the audio element.
+		      </audio>
+		    </td>
+		    <td>
+		      <audio controls>
+			<source src="Voice_Conversion/results/StarGAN/SF1_200050.wav" type="audio/wav" />
+			Your browser does not support the audio element.
+		      </audio>
+		    </td>
+		    <td>
+		      <audio controls>
+			<source src="Voice_Conversion/results/StarGAN/TM1_SF1_200050.mp3" type="audio/wav" />
+			Your browser does not support the audio element.
+		      </audio>
+		    </td>
+		  
+		  </tr>
+
+		 
+		  
+		</tbody>
+	      </table>
+	    </div>
+
+	    
+	  </div>
+	</div>
+
+	<hr>
+	<h2>Modified starGAN</h2>
+	    <p>
+	      It was evaluated using the Voice Conversion Challenge 2018 (VCC 2018)<a href="https://datashare.ed.ac.uk/handle/10283/3061"> dataset</a>.<br>
+	    </p>	    
+	   
+	    
+	    <h3><small>Female (SF2) &rarr; Male (TM1)</small></h3>
+	    <div>
+	      <table class="table">
+		<thead>
+		  <tr>
+		    <th></th>
+		    <th>Source</th>
+		    <th>Target</th>
+		    <th>Modified StarGAN-VC</th>
+
+		  </tr>
+		</thead>
+		<tbody>
+		  <tr>
+		    <th scope="row">Sample 1</th>
+		    <td>
+		      <audio controls>
+			<source src="Voice_Conversion/results/Modified_StarGAN/SF2_1.wav" type="audio/wav" />
+			Your browser does not support the audio element.
+		      </audio>
+		    </td>
+		    <td>
+		      <audio controls>
+			<source src="Voice_Conversion/results/Modified_StarGAN/TM1_1.wav" type="audio/wav" />
+			Your browser does not support the audio element.
+		      </audio>
+		    </td>
+		    <td>
+		      <audio controls>
+			<source src="Voice_Conversion/results/Modified_StarGAN/SF2_TM1_1.mp3" type="audio/wav" />
+			Your browser does not support the audio element.
+		      </audio>
+		    </td>
+		  
+		  </tr>
+
+		
+
+		</tbody>
+	      </table>
+	    </div>
+
+	    <h3><small>Male (SM2) &rarr; Male (TM1)</small></h3>
+	    <div>
+	      <table class="table">
+		<thead>
+		  <tr>
+		    <th></th>
+		    <th>Source</th>
+		    <th>Target</th>
+		    <th>Modified StarGAN-VC</th>
+			  
+		  </tr>
+		</thead>
+		<tbody>
+		  <tr>
+		    <th scope="row">Sample 1</th>
+		    <td>
+		      <audio controls>
+			<source src="Voice_Conversion/results/Modified_StarGAN/SM2_2.wav" type="audio/wav" />
+			Your browser does not support the audio element.
+		      </audio>
+		    </td>
+		    <td>
+		      <audio controls>
+			<source src="Voice_Conversion/results/Modified_StarGAN/TM1_2.wav" type="audio/wav" />
+			Your browser does not support the audio element.
+		      </audio>
+		    </td>
+		    <td>
+		      <audio controls>
+			<source src="Voice_Conversion/results/Modified_StarGAN/SM2_TM1_2.mp3" />
+			Your browser does not support the audio element.
+		      </audio>
+		    </td>
+		  
+		  </tr>
+
+		 
+		  
+		</tbody>
+	      </table>
+	    </div>
+
+	    
+	  </div>
+	</div>
+	
+	<hr>
+	 
+
+	
+      </div>
+    </main>
+
+   
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="../../js/bootstrap.min.js"></script>
+  </body>
+</html>
