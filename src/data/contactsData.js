@@ -1,6 +1,6 @@
 export const contactsData = {
-    email: 'amangondaliya555@gmail.com',
-    phone: '+351934600764',
-    address: 'R. Eusébio Ferreira 42, 2775-403 Carcavelos ',
-    sheetAPI: 'https://sheetdb.io/api/v1/6zbambu47inhe'
+    email: 'angelojuvyliza@gmail.com',
+    phone: '+639275303048',
+    address: 'Pugaro, Pangasinan, Philippines - 2442 ',
+    sheetAPI: 'https://sheetdb.io/api/v1/ddpk4oqdlr5c0'
 }

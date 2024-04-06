@@ -1,24 +1,13 @@
- export const skillsData = [
-    'HTML',
-    'Javascript',
-    'CSS',
-    'Bootstrap',
-    'PHP',
-    'React',
-    'MySQL',
-    'Numpy',
-    'Tensorflow',
-    'Pytorch',
-    'Docker',
-    'Git',
-    'Markdown',
-    'C',
-    'C++',
-    'Python',
-    'Photoshop',
-    'Illustrator',
+export const skillsData = [
+    'AutoCAD', 
     'Microsoft Office',
-    'Matlab'
+    'Photoshop', 
+    'Illustrator',
+    'Time management',
+    'Analytical Thinking',
+    'Managerial Writing', 
+    'Technical Writing',
+    'Communications',
 ]
 
 // Choose your skills from below. Make sure it's in the same format and spelled correctly.
