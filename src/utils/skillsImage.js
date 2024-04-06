@@ -74,7 +74,13 @@ import unity from '../assets/svg/skills/unity.svg'
 import wolframalpha from '../assets/svg/skills/wolframalpha.svg'
 
 import canva from '../assets/svg/skills/canva.svg'
-
+import graphicdesign from '../assets/svg/skills/graphicdesign.svg'
+import autocad from '../assets/svg/skills/autocad.svg'
+import technicalwriting from '../assets/svg/skills/technicalwriting.svg'
+import managerialwriting from '../assets/svg/skills/managerialwriting.svg'
+import analyticalthinking from '../assets/svg/skills/analyticalthinking.svg'
+import timemanagement from '../assets/svg/skills/timemanagement.svg'
+import communications from '../assets/svg/skills/communications.svg'
 
 export const skillsImage = (skill) => {
     const skillID = skill.toLowerCase();
@@ -227,6 +233,20 @@ export const skillsImage = (skill) => {
             return wolframalpha;
         case 'canva':
             return canva;
+        case 'graphicdesign':
+            return graphicdesign;
+        case 'autocad':
+            return autocad;
+        case 'technical writing':
+            return technicalwriting;
+        case 'managerial writing':
+            return managerialwriting;
+        case 'analytical thinking':
+            return analyticalthinking;
+        case 'time management':
+            return timemanagement;
+        case 'communications':
+            return communications;
         default:
             break;
     }
