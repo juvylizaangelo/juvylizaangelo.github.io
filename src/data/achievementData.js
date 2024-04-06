@@ -1,4 +1,4 @@
-mport wpictf from '../assets/png/wpictf.png'
+import wpictf from '../assets/png/wpictf.png'
 import coding from '../assets/png/coding.png'
 
 export const achievementData = {
