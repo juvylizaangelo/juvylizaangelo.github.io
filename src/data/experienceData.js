@@ -1,10 +1,10 @@
 export const experienceData = [
     {
         id: 1,
-        company: 'National Transmission Corporation (Transco) | Binalonan',
-        jobtitle: 'Corporate Staff Assistant',
+        company: 'Sumi North Philippines Wiring System (SNPW) | Binalonan',
+        jobtitle: ' Production Engineering (Senior) Staff',
         startYear: 'Dec 2022 ',
-        endYear: ' Present'
+        endYear: ' April 2024'
     },
     {
         id: 2,
