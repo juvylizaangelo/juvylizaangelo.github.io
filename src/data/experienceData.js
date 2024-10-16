@@ -1,8 +1,8 @@
 export const experienceData = [
     {
         id: 1,
-        company: 'Sumi North Philippines Wiring System (SNPW) | Binalonan',
-        jobtitle: ' Production Engineering (Senior) Staff',
+        company: 'Universal Groups Pty Ltd | Remote',
+        jobtitle: ' Senior Virtual Assistant',
         startYear: 'Sept 2024 ',
         endYear: ' Present'
     },
