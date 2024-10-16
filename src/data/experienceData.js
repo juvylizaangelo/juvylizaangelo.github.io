@@ -1,7 +1,7 @@
 export const experienceData = [
     {
         id: 1,
-        company: 'Universal Groups Pty Ltd | Remote',
+        company: 'Universal Groups Pty Ltd | Remote, Philippines',
         jobtitle: ' Senior Virtual Assistant',
         startYear: 'Sept 2024 ',
         endYear: ' Present'
