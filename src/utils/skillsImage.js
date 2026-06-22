@@ -252,7 +252,19 @@ export const skillsImage = (skill) => {
         case 'time management':
             return timemanagement;
         case 'communications':
-            return communications;
+            return communications;      
+        case 'hootsuite':
+            return hootsuite;
+        case 'hubspot':
+            return hubspot;
+        case 'odoo':
+            return odoo;
+        case 'quickbooks':
+            return quickbooks;
+        case 'slack':
+            return slack;
+        case 'trello':
+            return trello;
         default:
             break;
     }
