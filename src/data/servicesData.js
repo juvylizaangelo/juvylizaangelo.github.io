@@ -14,66 +14,19 @@ export const servicesData = [
     },
     {
         id: 2,
-        title: 'AutoCAD Designing',
-        icon: <FaDraftingCompass />
+        title: 'Executive & Administrative Support',
+        icon: <AiOutlineMail/>
     },
     {
         id: 3,
-        title: 'Tutoring',
-        icon: <FaChalkboardTeacher />
+        title: 'Recruitment Operations',
+        icon: <BsClipboardData/>
     },
-    // {
-    //     id: 4,
-    //     title: 'Internet Research',
-    //     icon: <FaInternetExplorer />
-    // },
-    // {
-    //     id: 5,
-    //     title: 'Tutoring',
-    //     icon: <FaChalkboardTeacher />
-    // },
-
-    //{
-    //    id: 6,
-    //    title: 'Web Design',
-    //    icon: <BsCodeSlash />
-    //},
-    //{
-    //    id: 7,
-    //    title: 'Photography',
-    //    icon: <FaCameraRetro />
-    //},
-    // {
-    //     id: 8,
-    //     title: 'Pinterest Virtual Assistant',
-    //     icon: <FaPinterest />
-    // },
-    //{
-    //    id: 9,
-    //    title: 'Video Editing',
-    //    icon: <FaVideo />
-    //},
-    // {
-    //     id: 10,
-    //     title: 'Data Entry',
-    //     icon: <BsClipboardData />
-    // },
-    //{
-    //    id: 11,
-    //    title: 'Ebook Writing',
-    //    icon: <FaTabletAlt />
-    //},
-    // {
-    //     id: 12,
-    //     title: 'Audio Transcription',
-    //     icon: <AiFillAudio />
-    // },
-    //{
-    //    id: 13,
-    //    title: 'Blog Posting',
-    //    icon: <FaRegNewspaper />
-    //},
-
+    {
+        id: 4,
+        title: 'Operations & Project Coordination',
+        icon: <BsCodeSlash/>
+    }
 ]
 
 // Uncomment your required service.
