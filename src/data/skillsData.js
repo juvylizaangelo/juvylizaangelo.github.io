@@ -5,6 +5,7 @@ export const skillsData = [
     // Business & Operations Platforms
     'Odoo',
     'HubSpot',
+    'HootSuite'
     'QuickBooks',
 
     // Collaboration & Project Management
