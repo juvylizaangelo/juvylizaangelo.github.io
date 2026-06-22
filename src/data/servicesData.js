@@ -8,21 +8,16 @@ import { FaInternetExplorer, FaLaptop, FaChalkboardTeacher, FaCameraRetro, FaPin
 export const servicesData = [
     {
         id: 1,
-        title: 'Virtual Assistance',
-        icon: <AiOutlineMail />
-    },
-    {
-        id: 2,
         title: 'Executive & Administrative Support',
         icon: <BsClipboardData />
     },
     {
-        id: 3,
+        id: 2,
         title: 'Recruitment Operations',
         icon: <FaUsers />
     },
     {
-        id: 4,
+        id: 3,
         title: 'Operations & Project Coordination',
         icon: <FaRegNewspaper />
     }
