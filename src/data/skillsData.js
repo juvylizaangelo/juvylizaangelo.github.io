@@ -1,22 +1,32 @@
 export const skillsData = [
+    // AI / Automation
     'AI Tools',
-    'Google Workspace',
-    'QuickBooks',
+
+    // Business & Operations Platforms
     'Odoo',
     'HubSpot',
-    'Trello',
-    'Hootsuite',
+    'QuickBooks',
+
+    // Collaboration & Project Management
     'Slack',
+    'Trello',
+    'Google Workspace',
+
+    // Productivity Software
+    'Microsoft Office Suite',
+
+    // Creative Tools
     'Canva',
-    'AutoCAD',
-    'Microsoft Office',
-    'Photoshop', 
+    'Photoshop',
     'Illustrator',
+    'AutoCAD',
+
+    // Soft Skills
+    'Communications',
     'Time management',
     'Analytical Thinking',
-    'Managerial Writing', 
+    'Managerial Writing',
     'Technical Writing',
-    'Communications',
 ]
 
 // Choose your skills from below. Make sure it's in the same format and spelled correctly.
