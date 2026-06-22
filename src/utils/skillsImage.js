@@ -81,6 +81,12 @@ import managerialwriting from '../assets/svg/skills/managerialwriting.svg'
 import analyticalthinking from '../assets/svg/skills/analyticalthinking.svg'
 import timemanagement from '../assets/svg/skills/timemanagement.svg'
 import communications from '../assets/svg/skills/communications.svg'
+import hootsuite from '../assets/svg/skills/hootsuite.svg'
+import hubspot from '../assets/svg/skills/hubspot.svg'
+import odoo from '../assets/svg/skills/odoo.svg'
+import quickbooks from '../assets/svg/skills/quickbooks.svg'
+import slack from '../assets/svg/skills/slack.svg'
+import trello from '../assets/svg/skills/trello.svg'
 
 export const skillsImage = (skill) => {
     const skillID = skill.toLowerCase();
