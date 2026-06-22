@@ -87,6 +87,8 @@ import odoo from '../assets/svg/skills/odoo.svg'
 import quickbooks from '../assets/svg/skills/quickbooks.svg'
 import slack from '../assets/svg/skills/slack.svg'
 import trello from '../assets/svg/skills/trello.svg'
+import googleworkspace from '../assets/svg/skills/googleworkspace.svg'
+import aitools from '../assets/svg/skills/aitools.svg'
 
 export const skillsImage = (skill) => {
     const skillID = skill.toLowerCase();
@@ -227,7 +229,11 @@ export const skillsImage = (skill) => {
             return ionic;
         case 'markdown':
             return markdown;
-        case 'microsoft office':
+        case 'google workspace':
+            return googleworkspace;
+        case 'ai tools':
+            return aitools;
+        case 'microsoft office suite':
             return microsoftoffice;
         case 'picsart':
             return picsart;
